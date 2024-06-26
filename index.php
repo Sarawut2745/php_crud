@@ -18,10 +18,10 @@
         </tr>
 
         <tr>
-            <td>Home</td>
-            <td>Mangage Product</td>
-            <td>Create a new Product</td>
-            <td>Link</td>
+            <td><a href="index.php">Home</a></td>
+            <td><a href="mangage.php">Mangage Product</a></td>
+            <td><a href="addform.php">Create a new Product</a></td>
+            <td><a href="">Link</a></td>
         </tr>
 
         <tr>
