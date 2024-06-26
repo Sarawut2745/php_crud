@@ -41,7 +41,8 @@
                     <input type="text" name="search">
                     <input type="submit" name="submit" value="Search">
                 </form>
-                <table width="100%" border="1">
+            </td>
+            <table width="100%" border="1">
                     <tr>
                         <th>No.</th>
                         <th>Picture</th>
@@ -58,7 +59,7 @@
                         while ($row = mysqli_fetch_assoc($result)) {
                             echo "<tr>";
                                 echo "<td>". $count; "</td>";
-                               echo "<td><img src='picture/$row[Picture]' width=100px; hight=100px></td>"; 
+                               echo "<td><img src='images/$row[Picture]' width=100px; hight=100px></td>"; 
                                echo "<td>". $row["ProductName"] ."</td>";
                                echo "<td>". $row["Category"] ."</td>";
                                echo "<td>". $row["ProductDescription"] ."</td>";
@@ -70,7 +71,6 @@
                     }
                     ?>
                 </table>
-            </td>
         </tr>
 
     </table>
