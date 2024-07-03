@@ -28,7 +28,7 @@
             <td>
                 <?php $search = "";
 
-                if ($_SERVER["REQUEST_METHOD"] == "post") {
+                if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     $search = $_POST['search'];
                 }
 

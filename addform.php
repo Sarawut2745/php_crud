@@ -14,7 +14,7 @@ if (isset($_POST["submit"])) {
     $result = mysqli_query($conn, $sql) or die(mysqli_error($conn));
 
     if ($result) {
-        echo " <script>alert('ADD SC');window.location='index.php';</script>";
+        echo " <script>alert('ADD successfully');window.location='index.php';</script>";
     } else {
         echo " <script>alert('ERROR ADD');window.location='addform.php';</script>";
     }
